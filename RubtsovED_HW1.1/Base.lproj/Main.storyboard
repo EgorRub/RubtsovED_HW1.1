@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-4e-Lcz">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-4e-Lcz">
                                 <rect key="frame" x="20" y="44" width="374" height="400"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-ze-Dcv">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-ze-Dcv">
                                 <rect key="frame" x="20" y="462" width="374" height="400"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
@@ -28,14 +28,14 @@
                         <viewLayoutGuide key="safeArea" id="O6W-jG-2bV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="4ug-cD-pVj"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="width" secondItem="6H7-4e-Lcz" secondAttribute="width" id="PYV-CD-63D"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="centerX" secondItem="PW2-Wr-w7d" secondAttribute="centerX" id="Sv0-Y5-vbP"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="height" secondItem="6H7-4e-Lcz" secondAttribute="height" id="W6i-db-sqv"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="centerX" secondItem="PW2-Wr-w7d" secondAttribute="centerX" id="doF-XY-pmd"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="bottom" secondItem="O6W-jG-2bV" secondAttribute="bottom" id="oCi-TD-OIr"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="top" secondItem="O6W-jG-2bV" secondAttribute="top" id="qLc-ka-6c0"/>
-                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="6H7-4e-Lcz" secondAttribute="trailing" constant="20" id="smN-7T-AWf"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="6H7-4e-Lcz" secondAttribute="trailing" constant="20" id="0gj-Ye-11z"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="width" secondItem="PW2-Wr-w7d" secondAttribute="width" multiplier="0.903382" id="3EC-y0-j1N"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="9YT-RV-UTs"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="bottom" secondItem="zPK-ze-Dcv" secondAttribute="bottom" id="C0c-fT-BAU"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="height" secondItem="PW2-Wr-w7d" secondAttribute="height" multiplier="0.446429" id="GtF-oP-HiM"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="width" secondItem="PW2-Wr-w7d" secondAttribute="width" multiplier="0.903382" id="Vxc-f6-r2K"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="top" secondItem="O6W-jG-2bV" secondAttribute="top" id="g7I-u8-OVU"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="height" secondItem="PW2-Wr-w7d" secondAttribute="height" multiplier="0.446429" id="gLK-2g-4cf"/>
                         </constraints>
                     </view>
                 </viewController>
