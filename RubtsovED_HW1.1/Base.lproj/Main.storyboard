@@ -17,41 +17,27 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-4e-Lcz">
-                                <rect key="frame" x="20" y="44" width="374" height="400"/>
+                                <rect key="frame" x="20" y="64" width="374" height="384"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-ze-Dcv">
-                                <rect key="frame" x="20" y="462" width="374" height="400"/>
+                                <rect key="frame" x="20" y="458" width="374" height="384"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O6W-jG-2bV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="height" secondItem="PW2-Wr-w7d" secondAttribute="height" multiplier="0.446429" id="1fq-qH-sJb"/>
-                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="6H7-4e-Lcz" secondAttribute="trailing" constant="20" id="6v3-dD-AYO"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="8s2-uQ-yjV"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="centerY" secondItem="PW2-Wr-w7d" secondAttribute="centerY" id="9rJ-YS-wUw"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="width" secondItem="PW2-Wr-w7d" secondAttribute="width" multiplier="0.903382" id="AlN-a3-6vE"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="bottom" secondItem="O6W-jG-2bV" secondAttribute="bottom" id="Rce-4Y-Ds7"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="centerX" secondItem="O6W-jG-2bV" secondAttribute="centerX" id="bdx-Gg-Fox"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="height" secondItem="PW2-Wr-w7d" secondAttribute="height" multiplier="0.446429" id="jNR-UO-qQz"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="top" secondItem="O6W-jG-2bV" secondAttribute="top" id="kMQ-iB-V8G"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="width" secondItem="PW2-Wr-w7d" secondAttribute="width" multiplier="0.903382" id="mb6-az-rbN"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="centerX" secondItem="O6W-jG-2bV" secondAttribute="centerX" id="vWk-QH-gyN"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="2Hc-2F-zlW"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="6H7-4e-Lcz" secondAttribute="trailing" constant="20" id="Ipv-hq-Imq"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="zPK-ze-Dcv" secondAttribute="trailing" constant="20" id="JWf-Me-AFW"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="top" secondItem="6H7-4e-Lcz" secondAttribute="bottom" constant="10" id="XMA-QG-Uzk"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="height" secondItem="zPK-ze-Dcv" secondAttribute="height" id="bYC-gX-qg5"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="width" secondItem="zPK-ze-Dcv" secondAttribute="width" id="dAt-5B-zCr"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="top" secondItem="O6W-jG-2bV" secondAttribute="top" constant="20" id="owc-1m-5q8"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="bottom" secondItem="zPK-ze-Dcv" secondAttribute="bottom" constant="20" id="r2y-Qe-fVM"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="rse-cP-Fcs"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="vWk-QH-gyN"/>
-                                <exclude reference="bdx-Gg-Fox"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=compact">
-                            <mask key="constraints">
-                                <include reference="vWk-QH-gyN"/>
-                                <include reference="bdx-Gg-Fox"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
