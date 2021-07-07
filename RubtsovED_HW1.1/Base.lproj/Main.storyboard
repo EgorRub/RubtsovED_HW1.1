@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-4e-Lcz">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H7-4e-Lcz" userLabel="GreenView">
                                 <rect key="frame" x="20" y="64" width="374" height="384"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-ze-Dcv">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zPK-ze-Dcv" userLabel="RedView">
                                 <rect key="frame" x="20" y="458" width="374" height="384"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
