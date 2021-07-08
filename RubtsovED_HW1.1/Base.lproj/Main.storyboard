@@ -26,17 +26,16 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="O6W-jG-2bV"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98318648987523838" green="0.98737877154124121" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="2Hc-2F-zlW"/>
-                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="6H7-4e-Lcz" secondAttribute="trailing" constant="20" id="Ipv-hq-Imq"/>
-                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="zPK-ze-Dcv" secondAttribute="trailing" constant="20" id="JWf-Me-AFW"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="top" secondItem="6H7-4e-Lcz" secondAttribute="bottom" constant="10" id="XMA-QG-Uzk"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="height" secondItem="zPK-ze-Dcv" secondAttribute="height" id="bYC-gX-qg5"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="width" secondItem="zPK-ze-Dcv" secondAttribute="width" id="dAt-5B-zCr"/>
-                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="top" secondItem="O6W-jG-2bV" secondAttribute="top" constant="20" id="owc-1m-5q8"/>
-                            <constraint firstItem="O6W-jG-2bV" firstAttribute="bottom" secondItem="zPK-ze-Dcv" secondAttribute="bottom" constant="20" id="r2y-Qe-fVM"/>
-                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="rse-cP-Fcs"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="6H7-4e-Lcz" secondAttribute="trailing" constant="20" id="0ZQ-Ot-UtE"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="height" secondItem="zPK-ze-Dcv" secondAttribute="height" id="Ahl-jc-WOc"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="bottom" secondItem="zPK-ze-Dcv" secondAttribute="bottom" constant="20" id="KLQ-xJ-TO5"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="top" secondItem="O6W-jG-2bV" secondAttribute="top" constant="20" id="QNH-7c-mvj"/>
+                            <constraint firstItem="6H7-4e-Lcz" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="RNo-rz-ahf"/>
+                            <constraint firstItem="O6W-jG-2bV" firstAttribute="trailing" secondItem="zPK-ze-Dcv" secondAttribute="trailing" constant="20" id="Sit-Ff-Was"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="leading" secondItem="O6W-jG-2bV" secondAttribute="leading" constant="20" id="pA6-zl-2zm"/>
+                            <constraint firstItem="zPK-ze-Dcv" firstAttribute="top" secondItem="6H7-4e-Lcz" secondAttribute="bottom" constant="10" id="zDF-l7-U8l"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -46,9 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
